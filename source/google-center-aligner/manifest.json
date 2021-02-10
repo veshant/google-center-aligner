@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Google Center Aligner",
+  "version": "1.0.0",
+  "description": "Google Center Aligner",
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["https://www.google.com/*"]
+  }]
+
+}
